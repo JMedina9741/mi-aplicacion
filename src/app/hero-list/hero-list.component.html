@@ -1,0 +1,9 @@
+<div>
+    <h2>List of Heroes</h2>
+    <ul>
+        <!-- *ngFor para iterar sobre la lista de los heroes -->
+        <li *ngFor="let hero of heroes" (click)="logHero(hero)">
+        {{hero}}
+        </li>
+    </ul>
+</div>

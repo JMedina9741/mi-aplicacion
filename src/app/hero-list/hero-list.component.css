@@ -1,0 +1,19 @@
+/* Estilos para la lista de héroes */
+ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Estilos para los elementos de la lista */
+  li {
+    cursor: pointer;
+    margin: 5px 0;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+  }
+  
+  /* Estilo cuando se pasa el ratón sobre un elemento */
+  li:hover {
+    background-color: #e0e0e0;
+  }
